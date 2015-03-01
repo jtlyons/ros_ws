@@ -1,0 +1,8 @@
+prefix=/home/tyler/ros_ws/install
+
+Name: amazon
+Description: Description of amazon
+Version: 0.0.0
+Cflags: -I/home/tyler/ros_ws/install/include
+Libs: -L/home/tyler/ros_ws/install/lib -lamazon
+Requires: roscpp std_msgs geometry_msgs message_runtime
